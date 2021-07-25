@@ -1,0 +1,21 @@
+.bounding-box {
+  position: absolute;
+  box-shadow: 0 0 0 3px #149df2 inset;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
+.fineImage {
+  width: 600px;
+}
+.image-container {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+@media (max-width: 600px) {
+  .fineImage {
+    width: 700px;
+  }
+}

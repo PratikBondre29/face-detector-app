@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Charmonman&family=Dawning+of+a+New+Day&family=Kristi&family=Marck+Script&family=Monsieur+La+Doulaise&family=Mr+De+Haviland&family=Mrs+Saint+Delafield&family=Nothing+You+Could+Do&display=swap");
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.box {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+  font-family: "Mr De Haviland", cursive;
+  margin: 0;
+  background: #021841;
+  z-index: 100;
+}
+svg text {
+  stroke: #0ed1c1;
+  font-size: 80px;
+  /* font-weight: 700; */
+  stroke-width: 1;
+  animation: animate 6s infinite alternate;
+}
+
+@keyframes animate {
+  0% {
+    stroke-dasharray: 0 50%;
+    /* stroke-dashoffset: 20%; */
+  }
+  100% {
+    stroke-dasharray: 50% 0;
+    /* stroke-dashoffset: -20%; */
+  }
+}
+
+@media (max-width: 600px) {
+  svg text {
+    font-size: 200px;
+    stroke-width: 1.5;
+  }
+}
