@@ -31,10 +31,6 @@
 
 ## ![](images/fd21.png)
 
-#### _Registration page_
-
-## ![](images/fd22.png)
-
 #### _Home page_
 
 ## ![](images/fd2.png)
